@@ -4,8 +4,24 @@ title: Fillo programimin me Visual Studio - Instalimi i VS C# Express hap-pas-ha
 date: 2011-10-13 08:50
 author: betim
 comments: true
-categories: [Albanian, betim drenica, C#, cpp, express edition, Programming, programming, sql server, Technology, vb.net, visual studio, windows phone]
+categories: []
+tags:
+  [
+    Albanian,
+    betim drenica,
+    C#,
+    cpp,
+    express edition,
+    Programming,
+    programming,
+    sql server,
+    Technology,
+    vb.net,
+    visual studio,
+    windows phone,
+  ]
 ---
+
 Në postin e kaluar (<a title="Fillo programimin me Visual Studio – lidhjet për shkarkim" href="http://betimdrenica.wordpress.com/2011/10/13/fillo-programimin-me-visual-studio-lidhjet-per-shkarkim/" target="_blank">të cilin mund ta gjeni këtu</a>) postova lidhjet nga ku mund të shkarkohet Visual Studio (të cilën po ashtu e shkarkova edhe unë), për të vazhduar këtu me instalimin e saj, përkatësisht komponentën e Visual C# Express. E njejta procedurë vlenë edhe për komponentet tjera (Visual Basic, Visual C++ dhe Visual Web Developer). Së pari ekstraktojmë nga ISO dhe hapim skedarin Setup.exe (duke klikuar dy herë mbi të :D ).
 
 [caption id="attachment_115" align="aligncenter" width="300" caption="Instalimi i VSC# Express"]<a href="http://blog.betimdrenica.com/wp-content/uploads/2011/10/vsex001.png"><img class="size-medium wp-image-115 " title="Instalimi i VSC# Express 001" src="http://blog.betimdrenica.com/wp-content/uploads/2011/10/vsex001.png?w=300" alt="Instalimi i VSC# Express" width="300" height="223" /></a>[/caption]

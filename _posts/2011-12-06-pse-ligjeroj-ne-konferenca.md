@@ -4,8 +4,20 @@ title: Pse ligjëroj në konferenca?
 date: 2011-12-06 10:00
 author: betim
 comments: true
-categories: [Albanian, betim drenica, General, konferenca, kosova, Opinion, prishtina, Publication]
+categories: []
+tags:
+  [
+    Albanian,
+    betim drenica,
+    General,
+    konferenca,
+    kosova,
+    Opinion,
+    prishtina,
+    Publication,
+  ]
 ---
+
 A e keni pyetur veten ndonjëherë pse më duhet të marrë pjesë në konferencën / ngjarjen (<em>ang: event</em>) e radhës? Apo, thjeshtë me marrjen e një ftese (qoftë edhe joformale) përgjigjeni pozitivisht? Mirë... kohëve të fundit, jemi përballë me një numër të konsiderueshëm të ngjarjeve (sidomos atyre për / rreth Teknologjisë Informative), dhe, pikërisht për këtë unë "jam sqaruar me veten", se, pse marrë pjesë unë në ngjarjen e radhës. Unë ligjëroj në konferenca / ngjarje për shumë arsye, për të bartë diturinë tek të tjerët (pa kushte), për të promovuar një metodologji, teknologji, vegël, komponentë, ide e cila u ndihmon të tjerëve, për të promovuar veten (si person i njoftuar me temën / teknologjinë specifike), për të treguar për dështimet e mia dhe ngritjen pas tyre (pasi që askush nuk mund të shmangë dështimet, si pjesë e natyrshme e çdokujtë), për të shfaqur qëndrimet e mia rreth diçkafit (edhe nëse ato janë të kundërta me masat :) ) , etj ... E për sukseset ... ato le të promovohen vetë ... unë nuk kam nevojë ti flas ... (pak ideale këtu ... po ... nejse :) ).<!--more-->
 
 [caption id="attachment_214" align="aligncenter" width="576" caption="barcamp prishtina #3"]<a href="http://blog.betimdrenica.com/wp-content/uploads/2011/12/betim-drenica-barcamp.jpg"><img class=" wp-image-214  " title="betim drenica - barcamp (ngjarje joformale)" src="http://blog.betimdrenica.com/wp-content/uploads/2011/12/betim-drenica-barcamp.jpg" alt="betim drenica - barcamp (ngjarje joformale)" width="576" height="383" /></a>[/caption]
@@ -25,6 +37,7 @@ Në ngjarjet me karakter promovues, ndaj mendimin se duhet të fliten tema për 
 <strong>Rekapitulimi</strong>
 
 Pa marrë parasysh natyrën e ngjarjes, nga eksperienca ime kam mësuar se praktikat më të mira bazohen në këshillat e shkruara më poshtë, e që janë:
+
 <ul>
 	<li>flis për temën që me të vërtetë e njeh (e punon, e ke studiuar mirë)</li>
 	<li>mos e nënvlerëso publikun që të dëgjon</li>

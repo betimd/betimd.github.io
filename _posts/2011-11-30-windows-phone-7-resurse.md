@@ -4,8 +4,22 @@ title: Windows Phone 7 Resurse
 date: 2011-11-30 14:52
 author: betim
 comments: true
-categories: [.net, Albanian, aplikacione, betim drenica, General, Programming, shqip, Technology, windows phone, Windows Phone 7]
+categories: []
+tags:
+  [
+    .net,
+    Albanian,
+    aplikacione,
+    betim drenica,
+    General,
+    Programming,
+    shqip,
+    Technology,
+    windows phone,
+    Windows Phone 7,
+  ]
 ---
+
 Të fillosh programimin për Windows Phone 7 është fare e lehtë por të gjeshë shpejtë resurset e duhura merr kohë dhe kërkime të ndryshme. Mendova se do të ishte shumë e mirë që të publikoj disa lidhje për burimet e resurseve për programim në WP7, të cilat do të shërbenin si nisje e shpejtë.<!--more-->
 
 <a href="http://blog.betimdrenica.com/wp-content/uploads/2011/11/i-windows-phone-7-wallpaper.jpg"><img class="aligncenter size-medium wp-image-165" title="i-Windows-Phone-7-Wallpaper" src="http://blog.betimdrenica.com/wp-content/uploads/2011/11/i-windows-phone-7-wallpaper.jpg?w=300" alt="" width="300" height="82" /></a>

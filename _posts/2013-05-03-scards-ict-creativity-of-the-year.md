@@ -4,8 +4,27 @@ title: Scards & ICT Creativity of The Year
 date: 2013-05-03 11:06
 author: betim
 comments: true
-categories: [albania, Albanian, betim drenica, computer, Event, General, ICT Awards, icts, kosovo, media, pc world, Price, programming, scards, Technology]
+categories: []
+tags:
+  [
+    albania,
+    Albanian,
+    betim drenica,
+    computer,
+    Event,
+    General,
+    ICT Awards,
+    icts,
+    kosovo,
+    media,
+    pc world,
+    Price,
+    programming,
+    scards,
+    Technology,
+  ]
 ---
+
 Second part of April was great time for me :D.
 I justified (somehow) my absence in blogging for long time without new post.
 
@@ -26,6 +45,7 @@ So in this short post I just want to post some photos of the event I really enjo
 [caption id="" align="aligncenter" width="576"]<img class=" " title="ICT Creativity of the Year" alt="ICT Creativity of the Year" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/168389_10151641160799903_6307368_n.jpg" width="576" height="384" /> ICT Creativity of the Year[/caption]
 
 Please find some posts about event:
+
 <ul>
 	<li><span style="line-height:1.5;">- Top Channel : </span><a style="line-height:1.5;" href="http://www.top-channel.tv/artikull.php?id=256029">http://www.top-channel.tv/artikull.php?id=256029</a></li>
 	<li><span style="line-height:1.5;">- PC World : </span><a style="line-height:1.5;color:#ff4b33;" href="http://www.pcworld.al/mbyllet-me-sukses-albanian-ict-awards-2012/">http://www.pcworld.al/mbyllet-me-sukses-albanian-ict-awards-2012/</a></li>

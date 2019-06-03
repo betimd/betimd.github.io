@@ -4,8 +4,23 @@ title: My Sunday experiment - Salaam in Android
 date: 2014-07-29 18:21
 author: betim
 comments: true
-categories: [Android, android, android studio, application, betim drenica, Development, parse, peace, salaam, xamarin, yo]
+categories: []
+tags:
+  [
+    Android,
+    android,
+    android studio,
+    application,
+    betim drenica,
+    Development,
+    parse,
+    peace,
+    salaam,
+    xamarin,
+    yo,
+  ]
 ---
+
 Last weekend I decided to jump in a personal challenge, to write a working version of popular last hit Yo in less than a day, using native Android tools (Java and Android Studio) with knowledge got from Xamarin (the super awesome mobile cross platform that use C# as main language). And the result is .... download from link below
 
 <a title="Salaam in Google Play" href="https://play.google.com/store/apps/details?id=com.betimdrenica.salaam" target="_blank"><img class="aligncenter  wp-image-493" src="http://blog.betimdrenica.com/wp-content/uploads/2014/07/google_play_icon.png" alt="Salaam in Google Play" width="348" height="130" /></a>

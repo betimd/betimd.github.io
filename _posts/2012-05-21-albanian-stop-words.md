@@ -4,8 +4,31 @@ title: Albanian stop words
 date: 2012-05-21 00:55
 author: betim
 comments: true
-categories: [albanian, albanian language, betim drenica, General, gjuha, gjuha shqipe, kosova, kosovo, language, list, Publication, shqip, shqipëria, stop, stop words, Technology, technology, word, words]
+categories: []
+tags:
+  [
+    albanian,
+    albanian language,
+    betim drenica,
+    General,
+    gjuha,
+    gjuha shqipe,
+    kosova,
+    kosovo,
+    language,
+    list,
+    Publication,
+    shqip,
+    shqipëria,
+    stop,
+    stop words,
+    Technology,
+    technology,
+    word,
+    words,
+  ]
 ---
+
 <h1>Definition</h1>
 A <strong>stop word</strong> can be a word with meaning in a specific language, or it can be a <em>token </em>that does not have linguistic meaning. According to <a title="Wikipedia - stop words" href="http://en.wikipedia.org/wiki/Stop_words" target="_blank">wikipedia </a> <span style="line-height:24px;">definition for</span><span style="line-height:24px;"> </span>stop words is:
 <blockquote>In <a title="Computing" href="http://en.wikipedia.org/wiki/Computing">computing</a>, <strong>stop words</strong> are words which are filtered out prior to, or after, <a title="Natural language processing" href="http://en.wikipedia.org/wiki/Natural_language_processing">processing of natural language</a> data (text). It is controlled by human input and not automated. There is not one definite list of stop words which all tools use, if even used.</blockquote>
@@ -20,10 +43,12 @@ Key words:
 Për një <strong>botë</strong> më të <strong>lirë</strong> dhe më të <strong>mirë</strong>.
 
 If we analyze the sentence, all meaning remain to three words that are bolded. Other words are just to make sentence grammatically correct, but aren't crucial in search. If we take just selected parts: <strong>botë lirë mirë</strong> / <strong>bote lire mire</strong> we can see that all combination would be <em>visible / imagined / combined</em> in searches.
+
 <h1>Albanian stop words</h1>
 There are several lists of stop words of several languages but I haven't seen till now any list of albanian stop words. So, I decided to publish initial version of my list, but, it is supposed and exposed to be changed in future. So, I really encourage to add your comment here.
 
-<strong>*</strong><em>While we have some special letters like <strong>Ç</strong> and <strong>Ë</strong> I'll write both versions of words contain these letters.</em>
+<strong>\*</strong><em>While we have some special letters like <strong>Ç</strong> and <strong>Ë</strong> I'll write both versions of words contain these letters.</em>
+
 <ul>
 	<li>a</li>
 	<li>apo</li>

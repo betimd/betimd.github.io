@@ -4,8 +4,27 @@ title: ALNUG Takimi
 date: 2012-02-16 14:42
 author: betim
 comments: true
-categories: [Albanian, albanian .net user group, ALNUG, alnug, besnik shahini, betim drenica, dukagjin maloku, egon zeneli, florim maxhuni, General, kosova, lamir shkurti, prishtina, Technology, technology]
+categories: []
+tags:
+  [
+    Albanian,
+    albanian .net user group,
+    ALNUG,
+    alnug,
+    besnik shahini,
+    betim drenica,
+    dukagjin maloku,
+    egon zeneli,
+    florim maxhuni,
+    General,
+    kosova,
+    lamir shkurti,
+    prishtina,
+    Technology,
+    technology,
+  ]
 ---
+
 Më 15 shkurt 2012 u mbajt një takim i ALNUG - Albanian .Net User Group, ku u diskutuan disa tema.
 
 [caption id="" align="aligncenter" width="2560" caption="ALNUG Takimi"]</dt><dt class="wp-caption-dt"><img style="height:375px;width:500px;" title="ALNUG Takimi" src="http://blog.betimdrenica.com/wp-content/uploads/2012/02/wp_000095.jpg" alt="Nga ALNUG takimi" width="2560" height="1920" />[/caption]
@@ -21,6 +40,7 @@ Më 15 shkurt 2012 u mbajt një takim i ALNUG - Albanian .Net User Group, ku u d
 [caption id="" align="aligncenter" width="2560" caption="ALNUG Takimi"]<img style="height:375px;width:500px;" title="ALNUG Takimi" src="http://blog.betimdrenica.com/wp-content/uploads/2012/02/2012216144151.jpg" alt="Nga ALNUG takimi" width="2560" height="1920" />[/caption]
 
 Në takim u diskutuan këto tema dhe u vendos për këto çështje:
+
 - Emri mbetet Albanian .Net User Group, ndërsa shkurtesa ALNUG.
 - Do të mbahet një ngjarje para Majit (kur mbahet edhe Tech Update &amp; Tech Days)
 - Do të tentohet që të organizohen ngjarje dhe të mbahen kontakte me universitetet

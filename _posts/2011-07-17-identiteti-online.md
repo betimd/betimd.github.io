@@ -4,8 +4,10 @@ title: Identiteti online
 date: 2011-07-17 13:56
 author: betim
 comments: true
-categories: [Albanian, betim drenica, identitet, internet, Opinion, opinion, shqip]
+categories: []
+tags: [Albanian, betim drenica, identitet, internet, Opinion, opinion, shqip]
 ---
+
 Të jetosh në ditët e sotme dhe të mos kesh identitet është një diçka shumë interesante dhe misterioze, aq më pak kur mund të jesh njeri që ke një punë standarde, që ke bërë një shkollim të caktuar, që ke bërë dhe bën ndonjë aktivitet të caktuar apo gjetiu. Nuk e kam fjalën për identitetin në jetën e përditshme apo ndonjë identitet të caktuar të çfarëdo natyre, e kam fjalën për identitetin online. Pa diskutim sot mediumi më i fuqishëm është interneti dhe jo më televizioni apo radioja siç mund të ketë qenë fare pak kohë më parë. Dhe sot ne jemi para një dileme a të ndërtojmë apo jo identitet të vërtetë online, apo identitet interneti. Përgjigjja ime do të ishte e thjeshtë dhe e drejtpërdrejtë: PO, ne duhet të kemi një identitet të vërtetë online. Pse shtrohet pyetja. Sepse...<!--more-->
 
 - sot është shumë e përhapur ideja e identiteve të rreme, me të cilat njerëzit e caktuar mundohen të japin një profil pak më ndryshe tëndin, të hetojnë shoqërinë tënde, të marrin informatë të caktuar, të personifikohen me ty. Të gjitha këto sot janë prezente në rrjetet sociale,
@@ -26,4 +28,4 @@ Dhe krejtë në fund mendimi im është që ka shumë më shumë gjëra pozitive
 
 Krejt kjo do të duhej të mbyllej me një mesazh. Është mirë të keshë identitet online se nuk mund të anashkalosh kohën në të cilën po jeton – epokën e internetit.
 
-<em>*Artikulli është botuar në <a title="CIO Albanian" href="http://www.cio.al" target="_blank">CIO Albanian</a></em>
+<em>\*Artikulli është botuar në <a title="CIO Albanian" href="http://www.cio.al" target="_blank">CIO Albanian</a></em>

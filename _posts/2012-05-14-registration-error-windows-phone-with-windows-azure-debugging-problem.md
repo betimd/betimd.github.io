@@ -4,8 +4,24 @@ title: Registration error... Windows Phone with Windows Azure debugging problem!
 date: 2012-05-14 01:13
 author: betim
 comments: true
-categories: [443, 444, betim drenica, C#, Development, Programming, web role, Windows Azure, windows azure, Windows Phone, windows phone, wrong port]
+categories: []
+tags:
+  [
+    443,
+    444,
+    betim drenica,
+    C#,
+    Development,
+    Programming,
+    web role,
+    Windows Azure,
+    windows azure,
+    Windows Phone,
+    windows phone,
+    wrong port,
+  ]
 ---
+
 You just have started to trying out the <a href="http://watoolkitwp7.codeplex.com/" target="_blank">Windows Azure Toolkit for Windows Phone 7</a>, and created your first sample application. Then , when you launch the admin page, you get this error:
 
 <em>Sorry, an error occurred while processing your request.
@@ -18,8 +34,13 @@ Interesting. You notice that in the address bar, Internet Explorer has for some 
 There are several solutions proposed in web, like one that is to change port in Compute Emulator when you start debugging. But I personally did another solution, that is maybe dude but it functions well :D.
 
 In Web project (ASP.Net MVC3) in Global.asax.cs I changed Default HTTPS Port const from
+
 <pre>private const int DefaultHttpsPort = <strong>443</strong>;</pre>
+
 to
+
 <pre>private const int DefaultHttpsPort = <strong>444</strong>;</pre>
+
 and voila :D I received message
+
 <h3>Welcome to the administration site for the Mobile Cloud Application Services!</h3>

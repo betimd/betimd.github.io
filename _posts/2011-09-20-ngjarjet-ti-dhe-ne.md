@@ -4,8 +4,23 @@ title: Ngjarjet (konferencat) e TI-së dhe ne
 date: 2011-09-20 09:42
 author: betim
 comments: true
-categories: [Albanian, General, konferenca, kosova, microsoft tech days, microsoft tech update, Opinion, Personal, prishtina, redo design conference, software freedom kosova conference]
+categories: []
+tags:
+  [
+    Albanian,
+    General,
+    konferenca,
+    kosova,
+    microsoft tech days,
+    microsoft tech update,
+    Opinion,
+    Personal,
+    prishtina,
+    redo design conference,
+    software freedom kosova conference,
+  ]
 ---
+
 I nxitur nga përpjekjet e një kolegu dhe të miat për organizimin e një takimi të një grupi të përdoruesve të një teknologjie (user group meeting), nga konferenca e fundit, nga reagimet dhe shkrimet pas kësaj konference si dhe nga biseda me shumë miq rreth kësaj çështje kam menduar goxha shumë këtyre ditëve për këtë "problematikë" apo për këtë "dukuri".
 
 <!--more-->Me sa e di unë në Kosovë, përkatësisht në Prishtinë (edhe kjo padiskutim është një temë në vete), kemi disa konferenca për teknologji (në përgjithësi) që organizohen brenda një viti ... duke prekur fusha të ndryshme të kësaj industrie ...
@@ -23,6 +38,7 @@ Ajo që duhet të ceket është se organizimi i këtyre ngjarjeve bëhet, qoftë
 Nuk duhet të harrojmë fenomenin "Prishtinë". Të gjitha këto konferenca mbahen në Prishtinë. Të gjitha këto promovohen vetëm në Prishtinë. Dhe, të vjen ideja që asnjë vend tjetër nuk mund të organizoj diçka të ngjashme, apo që, ne të gjithë jemi Prishtinë, apo që çdo gjë sillet (e pështillet) në Prishtinë, apo që, nuk kemi tjetër vend/qytet ku mund të organizojmë përpos në Prishtinë. Ehh, nuk e harrojmë gjithsesi faktin që vendi i kryeqytetit në një shtet të vogël është i madh, por kjo nuk e arsyeton këtë fenomen, besoj unë.
 
 Mirë, si përmbledhje... disa konferenca në një vend kaq të vogël, në një treg shumë të vogël, në një interesim po aq të vogël sa dy të parat... ngjarje dedikuar harduerit, serverëve, sistemit operativ klient, zhvillimit të softuerëve, dizajnit etj, të njejtat fytyra (përafërsisht), të njejtët pjesëmarrës me një përjashtim që nganjëherë në role të ndryshme (nga audienca në prezantues dhe anasjelltas). Nga e tërë ajo që meditova këto ditë për këtë dukuri, më dolën disa pyetje/çështje të cilat më duhet të shtroj këtu për të marrë edhe mendimet tuaja (të vlefshme, si lexues i këtij shkrimi, si pjesëmarrës i ndonjë ngjarje të cekur më lartë, apo si person që merrë erë në këtë industri, apo edhe thjeshtë si një person që i sheh gjëra me një dozë rezerve):
+
 <ul>
 	<li>A duhet të kemi kaq shumë konferenca?</li>
 	<li>A duhet të kemi bashkërendim të datave ndërmjet tyre?</li>

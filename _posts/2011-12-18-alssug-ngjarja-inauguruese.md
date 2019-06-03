@@ -4,8 +4,30 @@ title: ALSSUG - Ngjarja inauguruese
 date: 2011-12-18 00:35
 author: betim
 comments: true
-categories: [.net 4.5, adem gashi, agim bekaj, Albanian, albanian, asp.net 4.5, bekim dauti, betim drenica, denali, dukagjin maloku, Event, General, kosova, microsoft, prishtina, rexhep kqiku, sql server, Technology]
+categories: []
+tags:
+  [
+    .net 4.5,
+    adem gashi,
+    agim bekaj,
+    Albanian,
+    albanian,
+    asp.net 4.5,
+    bekim dauti,
+    betim drenica,
+    denali,
+    dukagjin maloku,
+    Event,
+    General,
+    kosova,
+    microsoft,
+    prishtina,
+    rexhep kqiku,
+    sql server,
+    Technology,
+  ]
 ---
+
 Sot (më datë 17 dhjetor 2011) në Prishtinë u mbajt ngjarja inauguruese e SQL PASS ku pata kënaqësinë të flas për përmirësimet në T-SQL në SQL Server 2012 – Denali RC0.<!--more-->
 
 Ngjarja përpos karakterit inaugurues kishte edhe karakter teknik, ku u prezantuan disa teknologji (të së ardhmes). Fillimisht ngjarja u hap nga <a title="Dukagjin Maloku" href="https://twitter.com/#!/dugisql" target="_blank">Dukagjin Maloku</a> i cili përpos postit si lider i grupit <a title="ALSSUG" href="http://albania.sqlpass.org/" target="_blank">ALSSUG </a>(Albanian SQL Server User Group) ishte edhe personi që në fakt ka meritat më të mëdha për organizimin shumë profesional të kësaj ngjarje.
@@ -16,9 +38,10 @@ Më pas rradhën e kishin sesionet teknike, të cilat i nisa unë me një prezan
 
 [gallery columns="2"]
 
-*Kërkoj falje për kualitetin e fotove.
+\*Kërkoj falje për kualitetin e fotove.
 
 Lëshojani një sy edhe postimeve tjera në internet, për ngjarjen:
+
 <ul>
 	<li><a title="Blogu i Dukagjin Maloku" href="http://www.sqlservercentral.com/blogs/dugi/2011/12/17/albanian-sql-server-users-group-first-meeting/" target="_blank">Blogu i Dukagjin Maloku</a></li>
 	<li><a title="PCWorld Albanian" href="http://www.pcworld.al/lajmet/6035-Prurohet-grupi-Albanian-SQL-Server-Users-Group.html" target="_blank">PCWorld Albanian</a></li>

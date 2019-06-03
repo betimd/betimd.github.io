@@ -4,8 +4,27 @@ title: ALNUG & ALSSUG takimi i dytë
 date: 2013-02-10 00:57
 author: betim
 comments: true
-categories: [Albanian, ALNUG, alnug, alssug, betim drenica, dukagjin maloku, Event, General, ick, kosova, Microsoft, ngjarje, prishtina, shqip, Technology]
+categories: []
+tags:
+  [
+    Albanian,
+    ALNUG,
+    alnug,
+    alssug,
+    betim drenica,
+    dukagjin maloku,
+    Event,
+    General,
+    ick,
+    kosova,
+    Microsoft,
+    ngjarje,
+    prishtina,
+    shqip,
+    Technology,
+  ]
 ---
+
 <a href="http://blog.betimdrenica.com/wp-content/uploads/2013/02/alnug-alsug-meeting-10feb13-01.jpg"><img class="aligncenter size-full wp-image-434" alt="ALNUG &amp; ALSSUG takimi" src="http://blog.betimdrenica.com/wp-content/uploads/2013/02/alnug-alsug-meeting-10feb13-01.jpg" width="640" height="479" /></a>
 
 Sot në ambientet e <a title="Innovation Centre Kosovo" href="http://www.ickosovo.com" target="_blank">Innovation Centre Kosovo</a> dy grupet e përdoruesve të teknologjive të Microsoft, Abanian .Net User Group dhe Albanian SQL Server User Group organizuan takimin e dytë me radhë, të përbashkët.

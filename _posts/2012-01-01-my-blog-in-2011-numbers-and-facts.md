@@ -4,13 +4,36 @@ title: My blog in 2011, some numbers and facts
 date: 2012-01-01 22:35
 author: betim
 comments: true
-categories: [arianit dobroshi, barcamp, betim, betim drenica, blog, blogging, Contacts Factbook, drenica, General, gent thaci, hallakate, kosova, oxo design, Personal, prishtina, rexhep kqiku, visar shehu, wordpress]
+categories: []
+tags:
+  [
+    arianit dobroshi,
+    barcamp,
+    betim,
+    betim drenica,
+    blog,
+    blogging,
+    Contacts Factbook,
+    drenica,
+    General,
+    gent thaci,
+    hallakate,
+    kosova,
+    oxo design,
+    Personal,
+    prishtina,
+    rexhep kqiku,
+    visar shehu,
+    wordpress,
+  ]
 ---
+
 <a href="http://blog.betimdrenica.com/wp-content/uploads/2012/01/betimdrenica-blog.png"><img class="aligncenter size-medium wp-image-260" title="blogging..." src="http://blog.betimdrenica.com/wp-content/uploads/2012/01/betimdrenica-blog.png?w=300" alt="" width="300" height="246" /></a>
 
 2011 was first the year I decided to start blogging (and blogged :)). Generally it went good. In this post (first in 2012) I'd like to share some stats and thoughts on this. When I decided to make my opinions and work public I thought it would be good to write in English because of target of this blog and massive acceptability, but today I was surprised when I saw that all posts (almost) are in Albanian (my mother tongue), and I think this happened because of local events, expressions or reactions I thought targets a specific audience (that understand albanian). I made no surprise in platform I chose, <strong>Wordpress</strong>, simple and real choice. I <strong>started blogging</strong> in <strong>July</strong> and stats are impressive to me. <!--more-->But when I made some analyses on them, I learned some valuable tips and tricks. I noticed when I posted, visits were good in numbers, but when posts were just after events (I spoke), they were crazy, and real sample for this is post about <a title="Barcamp Prishtina #3" href="http://betimdrenica.wordpress.com/2011/12/01/barcamp-prishtina-3/" target="_blank">Barcamp Prishtina #3</a>.
 
 Some stats and facts are presented below.
+
 <ul>
 	<li>3,889 views all-time (in 2011)</li>
 	<li>566 views on busiest day, December 18, 2011</li>
@@ -43,6 +66,7 @@ Top referring sites visitors came from:
 Most commented post was <a href="http://betimdrenica.wordpress.com/2011/07/17/aplikacione-te-avancuara-interneti-3/" target="_blank">Aplikacione të avancuara interneti (Rich Internet Applications) - 3</a>
 
 5 most active commenters:
+
 <ul>
 	<li><a href="http://twitter.com/oxodesign">oxodesign</a> - 4 comments</li>
 	<li><a href="http://gentt.wordpress.com/" target="_blank">gentthaci </a>- 1 comment</li>

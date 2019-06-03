@@ -4,8 +4,24 @@ title: Web API on IIS 8.0 - 405 Method Not Allowed for PUT
 date: 2013-02-05 11:46
 author: betim
 comments: true
-categories: [ASP.NET, asp.net, betim drenica, Development, http, IIS, iis 8, Microsoft, put, rest, web api, WebAPI]
+categories: []
+tags:
+  [
+    ASP.NET,
+    asp.net,
+    betim drenica,
+    Development,
+    http,
+    IIS,
+    iis 8,
+    Microsoft,
+    put,
+    rest,
+    web api,
+    WebAPI,
+  ]
 ---
+
 Lately I'm extensively developing my web services in ASP.Net Web API and generally speaking it's good framework in supporting HTTP programming (REST "style"), even if it is in it's early stages and needed more features to be "completed".
 
 Yesterday I had a very interesting problem when I published new version of my project (btw, I am developing web api in ASP.Net 4.5 and deploy it in Windows Server 2012 and IIS 8).

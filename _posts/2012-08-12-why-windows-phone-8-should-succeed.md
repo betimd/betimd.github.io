@@ -4,9 +4,31 @@ title: Why Windows Phone 8 should succeed?!
 date: 2012-08-12 16:42
 author: betim
 comments: true
-categories: [betim, betim drenica, Development, General, Microsoft, microsoft, mvp, service pack 1, Technology, technology, Windows Phone, windows phone, Windows Phone 7, Windows Phone 8, wp7, WP8, wp8]
+categories: []
+tags:
+  [
+    betim,
+    betim drenica,
+    Development,
+    General,
+    Microsoft,
+    microsoft,
+    mvp,
+    service pack 1,
+    Technology,
+    technology,
+    Windows Phone,
+    windows phone,
+    Windows Phone 7,
+    Windows Phone 8,
+    wp7,
+    WP8,
+    wp8,
+  ]
 ---
+
 Like everyone else has an opinion about new comings I also have mine and I want to share my bits why I think Windows Phone 8 should succeed. According to my opinion there are several reasons and conditions why next mobile operating system from Microsoft should make remarkable debut and gain significant percentage and momentum.
+
 <p style="text-align:left;"><a href="http://blog.betimdrenica.com/wp-content/uploads/2012/08/suposed-windows-phone-8-logo.jpg"><img class="size-full wp-image-407 aligncenter" title="Suposed Windows Phone 8 logo" src="http://blog.betimdrenica.com/wp-content/uploads/2012/08/suposed-windows-phone-8-logo.jpg" alt="Suposed Windows Phone 8 logo" width="193" height="193" /></a><span style="text-align:left;">The factors that Windows Phone 8 should succeed according to my opinion are:</span></p>
 
 <ul>

@@ -4,7 +4,8 @@ title: SMUP - Simple Math Under Pressure
 date: 2014-09-08 10:44
 author: betim
 comments: true
-categories:
+categories: []
+tags:
   [
     Android,
     android,

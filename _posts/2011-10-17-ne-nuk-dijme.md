@@ -4,8 +4,21 @@ title: Ne nuk dijmë!!!
 date: 2011-10-17 12:03
 author: betim
 comments: true
-categories: [Albanian, betim drenica, General, kosova, Opinion, prishtina, Publication, shkenca kompjuterike, shqip]
+categories: []
+tags:
+  [
+    Albanian,
+    betim drenica,
+    General,
+    kosova,
+    Opinion,
+    prishtina,
+    Publication,
+    shkenca kompjuterike,
+    shqip,
+  ]
 ---
+
 I nxitur nga një lajm (i hidhur) i kohëve të fundit për invazionin (apo ardhjen, shprehur më butë) e një morie njerëzish të huaj (programerë) në institucione tona (thelbi/qeliza e shtetit) u nxita të bëjë këtë shkrim dhe të jap mendimin tim rreth kësaj dukurie,  duke qenë i vetëdishëm se mund të mos e marrë askush parasyshë (por tek e fundit dua të bëhem protagonisti i ngarjes së mirënjohur "Dua të tregoj me kë jam!").<!--more-->
 
 <strong>Ne nuk dijmë!!!</strong>
@@ -13,6 +26,7 @@ Ka kohë që "ne të rinjtë" (së paku një numër i madh i të tillëve që nj
 
 <strong>Dukuria e donacioneve dhe konsulentëve!!!</strong>
 Sa e sa herë kam parë që ne (institucionet tona) marrim donacione (të mirëseardhura padiskutim) nga shumë shtete ... por së bashku me ato donacione vijnë 8 milion (alegorikisht) kufizime... Ndër më të shpeshtat <em>benefite</em> që marrim janë:
+
 <ul>
 	<li>sisteme të dala nga përdorimi në vendet e tyre</li>
 	<li>sisteme të skaduara prej kohësh</li>

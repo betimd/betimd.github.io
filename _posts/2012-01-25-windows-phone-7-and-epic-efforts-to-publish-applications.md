@@ -4,9 +4,33 @@ title: Windows Phone 7 and epic efforts to publish applications
 date: 2012-01-25 10:00
 author: betim
 comments: true
-categories: [appamarket, appamundi, application, betim drenica, bing, Contacts Factbook, distimo, General, global publisher, kosova, Marketplace, microsoft, msdn, publisher, Technology, windows phone, Windows Phone 7, WP7, yallaapps]
+categories: []
+tags:
+  [
+    appamarket,
+    appamundi,
+    application,
+    betim drenica,
+    bing,
+    Contacts Factbook,
+    distimo,
+    General,
+    global publisher,
+    kosova,
+    Marketplace,
+    microsoft,
+    msdn,
+    publisher,
+    Technology,
+    windows phone,
+    Windows Phone 7,
+    WP7,
+    yallaapps,
+  ]
 ---
+
 There is plenty of time I am developing applications for Windows Phone and...
+
 <ul>
 	<li>tools are great (aka Visual Studio rocks)</li>
 	<li>learning content is great (aka msdn rocks (not as much as you imagine :D))</li>

@@ -4,17 +4,35 @@ title: Why developers need interviews?
 date: 2012-04-28 02:14
 author: betim
 comments: true
-categories: [betim drenica, developers, Development, General, interviews, linux, microsoft, Opinion, Programming, recruitment, Technology, technology]
+categories: []
+tags:
+  [
+    betim drenica,
+    developers,
+    Development,
+    General,
+    interviews,
+    linux,
+    microsoft,
+    Opinion,
+    Programming,
+    recruitment,
+    Technology,
+    technology,
+  ]
 ---
+
 <strong>Short introduction</strong>
 Just a year ago I couldn’t imagine writing this blog-post, but since I passed some experiences I’m really convinced for what I am writing here. If you are employed (self | corporate | startup | freelance | other type :D ) don’t just say: ou this post isn’t for me?! but please read till to the end because you’ll find something interesting even for your profile. I just want to show you here my two past interview experiences shortly and lessons I learned from them.
 
 [caption id="attachment_311" align="aligncenter" width="340" caption="Job interview"]<a href="http://blog.betimdrenica.com/wp-content/uploads/2012/04/job_interview.jpg"><img class="size-full wp-image-311" title="Job interview" src="http://blog.betimdrenica.com/wp-content/uploads/2012/04/job_interview.jpg" alt="Job interview" width="340" height="247" /></a>[/caption]
 
 <!--more-->
+
 Some days ago a friend of mine referred me to a mobile company in Switzerland, and after scheduling our skype conversation I had an interview with their CTO. That guy was incredibly calm, skilled, well-informed, great programmer (in past) and good manager (now). In his shoulders he has carrier years equally to my age. But beyond these facts we did a great conversation. I went in that interview without reading anything or preparing little bit and some questions just surprised me, but I managed somehow (because of my experience). I applied there for Windows Phone developer but since he has reviewed my CV I was asked for a whole application lifecycle and all-techs from top to bottom, required to build an application, from UI techs to databases. And, after two and half hours conversation I was tired but I learned a lot. I learned things I didn’t know before, and I couldn’t imagine without happening to me.
 
 <em>Lessons learned</em>
+
 <ul>
 	<li>Don’t go in interview without preparing, even if you call yourself genius. Repeat things because repetition is mother of learning and remembering I can say!</li>
 	<li>Don’t expect to be asked just for tasks related to position you are applying!</li>
@@ -30,6 +48,7 @@ Some days ago a friend of mine referred me to a mobile company in Switzerland, a
 Second interesting experience (in this story) was with a US company I applied online. After receiving my application they contacted me to confirm my data and they sent me a test (technical test). I was out for café with friends and I received email in my phone with technical test. I opened and saw just three questions / tasks :D. Huh, easy task I thought, and I closed to continue with friends. But when I started to answer in that test in next day (because I neglected for a day ) I found all hard and super-tricky questions that took me already a day to answer. Write code, do explanations and make prove as they required.
 
 <em>Lessons learned</em>
+
 <ul>
 	<li>Don’t neglect even easiest interview / test (you think so)!</li>
 	<li>Don’t lose time in answering questions you received!</li>

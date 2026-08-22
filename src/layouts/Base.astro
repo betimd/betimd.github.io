@@ -1,0 +1,70 @@
+---
+import Seo from '../components/Seo.astro'
+import { SITE, NAV } from '../consts'
+import '../styles/global.css'
+
+interface Props {
+  title: string
+  description: string
+  canonicalPath?: string
+  type?: 'website' | 'article'
+  publishedTime?: Date
+  image?: string
+  /** Per-page language. 16 migrated posts are Albanian. */
+  lang?: string
+  noindex?: boolean
+}
+
+const { lang = 'en', ...seo } = Astro.props
+
+// With build.format:'file' the homepage builds as "/index.html", not "/", so
+// a naive `pathname === '/'` check is silently false for the one page it is
+// meant to match. Normalise before comparing.
+const here = Astro.url.pathname.replace(/index\.html$/, '') || '/'
+
+// The homepage is a bare list of posts with no page heading of its own, so
+// the site title carries the <h1> there. Every other page has its own <h1>
+// in the content, and a second one here would break heading hierarchy —
+// the exact defect the old minima theme shipped on all 36 pages.
+const isHome = here === '/'
+const TitleTag = isHome ? 'h1' : 'p'
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <Seo {...seo} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="shell">
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          {
+            NAV.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-current={!('external' in item) && item.href === here ? 'page' : undefined}
+                  {...('external' in item ? { target: '_blank', rel: 'noopener' } : {})}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div class="content">
+        <TitleTag class="site-title"><a href="/">{SITE.title}</a></TitleTag>
+        <main id="main">
+          <slot />
+        </main>
+        <footer class="site-footer">
+          <a href="/feed.xml">RSS</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

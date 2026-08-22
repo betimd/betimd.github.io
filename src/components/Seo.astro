@@ -1,0 +1,98 @@
+---
+/**
+ * The single place this site emits metadata.
+ *
+ * The previous Jekyll build left `url: ''` in _config.yml, so jekyll-seo-tag
+ * concatenated an empty origin and silently emitted RELATIVE canonical, og:url
+ * and JSON-LD @id values on all 36 pages. Open Graph requires absolute URLs,
+ * so every social share preview was broken for years.
+ *
+ * Every URL below is resolved through `new URL(path, Astro.site)`, which throws
+ * at build time if `site` is unset. The failure mode is now loud.
+ */
+import { SITE, SOCIAL } from '../consts'
+
+interface Props {
+  title: string
+  description: string
+  /** Defaults to the current page. Pass explicitly for redirect stubs. */
+  canonicalPath?: string
+  type?: 'website' | 'article'
+  publishedTime?: Date
+  /** Root-relative path under /public, e.g. /assets/images/2015/api2.png */
+  image?: string
+  noindex?: boolean
+}
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  type = 'website',
+  publishedTime,
+  image,
+  noindex = false,
+} = Astro.props
+
+const abs = (path: string) => new URL(path, Astro.site).href
+
+const canonical = abs(canonicalPath)
+const imageUrl = image ? abs(image) : undefined
+const isHome = canonicalPath === '/'
+const pageTitle = isHome ? SITE.title : `${title} — ${SITE.title}`
+
+const jsonLd = type === 'article'
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: title,
+      description,
+      url: canonical,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+      datePublished: publishedTime?.toISOString(),
+      dateModified: publishedTime?.toISOString(),
+      author: { '@type': 'Person', name: SITE.author, url: abs('/bio.html') },
+      ...(imageUrl ? { image: imageUrl } : {}),
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: SITE.title,
+      description,
+      url: abs('/'),
+      author: {
+        '@type': 'Person',
+        name: SITE.author,
+        url: abs('/bio.html'),
+        sameAs: [SOCIAL.x, SOCIAL.github, SOCIAL.linkedin],
+      },
+    }
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content={SITE.title} />
+<meta property="og:locale" content={SITE.locale} />
+{imageUrl && <meta property="og:image" content={imageUrl} />}
+{publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+
+<meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:creator" content={SOCIAL.xHandle} />
+{imageUrl && <meta name="twitter:image" content={imageUrl} />}
+
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="alternate" type="application/rss+xml" title={SITE.title} href={abs('/feed.xml')} />
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

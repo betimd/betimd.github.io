@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro'
+import { WEB3FORMS_KEY, SOCIAL } from '../consts'
+
+// betimdrenica.com has no MX records, so the domain cannot receive mail.
+// Web3Forms relays submissions to the address the key is registered to.
+// The key is public by design — it must appear in the rendered HTML for the
+// form to work, so hiding it in an env var would be theatre with a real
+// failure mode (a missing secret breaks the form silently in production).
+---
+
+<Base
+  title="Contact"
+  description="Get in touch with Betim Drenica — send a message directly, or find me on Twitter, GitHub and LinkedIn."
+>
+  <article class="prose">
+    <h1>Contact</h1>
+
+    <p>Send me a note and it lands in my inbox. I read everything.</p>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+      <input type="hidden" name="subject" value="New message from betimdrenica.com" />
+      <input type="hidden" name="from_name" value="betimdrenica.com" />
+      <input type="hidden" name="redirect" value="https://betimdrenica.com/thanks.html" />
+
+      <!-- Honeypot. Hidden from people, irresistible to naive bots. -->
+      <div class="hp-field" aria-hidden="true">
+        <label for="botcheck">Leave this field empty</label>
+        <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required autocomplete="name" />
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required autocomplete="email" />
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <h2>Elsewhere</h2>
+
+    <ul>
+      <li>Twitter — <a href={SOCIAL.x} target="_blank" rel="noopener">{SOCIAL.xHandle}</a></li>
+      <li>GitHub — <a href={SOCIAL.github} target="_blank" rel="noopener">betimd</a></li>
+      <li>LinkedIn — <a href={SOCIAL.linkedin} target="_blank" rel="noopener">in/betim</a></li>
+    </ul>
+  </article>
+</Base>

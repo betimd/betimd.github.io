@@ -1,0 +1,27 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# local Claude Code settings — this repo is public
+.claude/
+
+# environment
+.env
+.env.production
+
+# macOS
+.DS_Store
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# playwright-mcp scratch output
+.playwright-mcp/
+
+# code-review-graph MCP cache
+.code-review-graph/

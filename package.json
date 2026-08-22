@@ -1,0 +1,24 @@
+{
+  "name": "betimdrenica.com",
+  "type": "module",
+  "version": "2.0.0",
+  "private": true,
+  "description": "betimdrenica.com — personal site",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "new-post": "node scripts/new-post.mjs",
+    "verify": "node scripts/verify-build.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.2.4"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "yaml": "^2.9.0"
+  }
+}

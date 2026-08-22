@@ -1,0 +1,373 @@
+/*
+ * betimdrenica.com
+ *
+ * An homage to paulgraham.com, not a clone of it. The source uses <table
+ * width="435">, <font face="verdana" size="2">, and a left <img usemap> strip
+ * for navigation. This reproduces the *feel* — Verdana, narrow measure, navy
+ * links, no chrome — with semantic HTML that works on a phone and in a screen
+ * reader, which the original does not.
+ *
+ * No JavaScript is served anywhere on this site.
+ */
+
+:root {
+  --ink: #000000;
+  --link: #000099;         /* pg's link color, exactly */
+  --visited: #464646;      /* pg's vlink color, exactly */
+  --muted: #666666;
+  --rule: #e6e6e6;
+  --measure: 600px;
+  --nav-width: 130px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 2.5rem 1.5rem 4rem;
+  background: #ffffff;
+  color: var(--ink);
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+  /* pg runs `size=2` (~13px). 15px keeps the texture but stays readable. */
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--visited);
+}
+
+/* Deliberately no hover transition — the original has no motion at all. */
+
+/* ---------- layout ---------- */
+
+.shell {
+  display: grid;
+  grid-template-columns: var(--nav-width) minmax(0, var(--measure));
+  gap: 0 2.5rem;
+  margin: 0 auto;
+  max-width: calc(var(--nav-width) + var(--measure) + 2.5rem);
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  margin: 0 0 0.35rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: bold;
+}
+
+.content {
+  min-width: 0; /* let long <pre> shrink instead of blowing out the grid */
+}
+
+.site-title {
+  margin: 0 0 1.75rem;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.site-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* ---------- post list ---------- */
+
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-list li {
+  margin: 0 0 0.55rem;
+  display: flex;
+  gap: 0.9rem;
+  align-items: baseline;
+}
+
+.post-list time {
+  flex: 0 0 5.5rem;
+  color: var(--muted);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- prose ---------- */
+
+.prose h1 {
+  margin: 0 0 0.25rem;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.post-meta {
+  margin: 0 0 1.75rem;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.prose h2 {
+  margin: 2rem 0 0.5rem;
+  font-size: 16px;
+}
+
+.prose h3 {
+  margin: 1.5rem 0 0.4rem;
+  font-size: 15px;
+}
+
+.prose h4,
+.prose h5,
+.prose h6 {
+  margin: 1.25rem 0 0.35rem;
+  font-size: 15px;
+}
+
+.prose p {
+  margin: 0 0 1.15rem;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.15rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin: 0 0 0.3rem;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prose figure {
+  margin: 1.5rem 0;
+}
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--muted);
+}
+
+.prose pre {
+  overflow-x: auto;
+  padding: 0.9rem;
+  background: #f6f6f6;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+.prose :not(pre) > code {
+  padding: 0.1em 0.3em;
+  background: #f2f2f2;
+}
+
+.prose hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.15rem;
+  font-size: 14px;
+}
+
+.prose th,
+.prose td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--rule);
+  text-align: left;
+}
+
+/* WordPress-era alignment classes carried over in the imported markup. */
+.prose .aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose .alignleft {
+  float: left;
+  margin: 0 1rem 0.5rem 0;
+}
+
+.prose .alignright {
+  float: right;
+  margin: 0 0 0.5rem 1rem;
+}
+
+/* ---------- forms ---------- */
+
+.form-row {
+  margin: 0 0 1rem;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid #999;
+  background: #fff;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1.1rem;
+  border: 1px solid #333;
+  background: #f2f2f2;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #e6e6e6;
+}
+
+/* Honeypot: hidden from humans, visible to naive bots that fill every input. */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  margin-top: 3.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+/* ---------- accessibility ---------- */
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  padding: 0.5rem 0.75rem;
+  background: #fff;
+  border: 2px solid var(--link);
+}
+
+:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width: 640px) {
+  body {
+    padding: 1.5rem 1.1rem 3rem;
+  }
+
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  /* Nav moves above the title, laid out as a wrapping row. */
+  .site-nav {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.1rem;
+  }
+
+  .site-nav li {
+    margin: 0;
+  }
+
+  .post-list li {
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .post-list time {
+    flex: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

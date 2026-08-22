@@ -1,0 +1,5 @@
+# esbuild needs its postinstall script to place the platform binary.
+# Without this approval pnpm refuses to run it and `astro build` fails.
+# (pnpm 11 moved this setting here from package.json's `pnpm` field.)
+allowBuilds:
+  esbuild: true

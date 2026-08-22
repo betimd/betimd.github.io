@@ -1,0 +1,32 @@
+---
+/**
+ * Redirect stubs for the old Jekyll permalinks.
+ *
+ * The previous site used Jekyll's default /YYYY/MM/DD/slug.html scheme. Posts
+ * now live at the flat /slug.html. Paths are derived from each post's pubDate
+ * rather than hand-maintained, so the stub set can never drift from the posts.
+ */
+import RedirectStub from '../../../../components/RedirectStub.astro'
+import { getCollection } from 'astro:content'
+import type { GetStaticPaths } from 'astro'
+
+export const getStaticPaths = (async () => {
+  const posts = await getCollection('posts', ({ data }) => !data.draft)
+  return posts.map((post) => {
+    const d = post.data.pubDate
+    return {
+      params: {
+        year: String(d.getUTCFullYear()),
+        month: String(d.getUTCMonth() + 1).padStart(2, '0'),
+        day: String(d.getUTCDate()).padStart(2, '0'),
+        slug: post.id,
+      },
+      props: { to: `/${post.id}.html` },
+    }
+  })
+}) satisfies GetStaticPaths
+
+const { to } = Astro.props
+---
+
+<RedirectStub to={to} />

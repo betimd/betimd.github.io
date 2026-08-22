@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  # NOTE: this repo's default branch is `master`, not `main`. Astro's docs
+  # example hardcodes `main`, which would silently never trigger here.
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let an in-flight deploy finish rather than cancelling it mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Build
+        uses: withastro/action@v6
+        # package-manager is auto-detected from pnpm-lock.yaml.
+        # node-version defaults to 24, matching local development.
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5

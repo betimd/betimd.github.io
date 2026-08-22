@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro'
+import { SOCIAL } from '../consts'
+---
+
+<Base
+  title="Bio"
+  description="Betim Drenica — software architect, building Sent. Previously .NET and mobile, and a founder of the Albanian .NET and SQL Server user groups in Prishtina."
+>
+  <article class="prose">
+    <h1>Bio</h1>
+
+    <p>
+      I'm Betim Drenica. I build software, and occasionally write about it here.
+    </p>
+
+    <p>
+      I'm currently building <a href={SOCIAL.sent} target="_blank" rel="noopener">Sent</a>,
+      a messaging API. Before that I spent years as a software architect working across
+      backend services, APIs, and mobile — mostly in the .NET world, with detours through
+      iOS and Android.
+    </p>
+
+    <p>
+      Earlier on I was involved in the developer community in Prishtina: helping run ALNUG
+      and ALSSUG, the Albanian .NET and SQL Server user groups, and speaking at conferences
+      around Kosovo. A good part of the older writing on this site comes from that period,
+      and a fair amount of it is in Albanian.
+    </p>
+
+    <p>
+      This site is mostly an archive plus whatever I'm thinking about now. Posts go back to
+      2011. The early ones are about technology that no longer exists, which I've left up
+      rather than quietly deleted.
+    </p>
+
+    <h2>Elsewhere</h2>
+
+    <ul>
+      <li>Twitter — <a href={SOCIAL.x} target="_blank" rel="noopener">{SOCIAL.xHandle}</a></li>
+      <li>GitHub — <a href={SOCIAL.github} target="_blank" rel="noopener">betimd</a></li>
+      <li>LinkedIn — <a href={SOCIAL.linkedin} target="_blank" rel="noopener">in/betim</a></li>
+      <li>Sent — <a href={SOCIAL.sent} target="_blank" rel="noopener">sent.dm</a></li>
+    </ul>
+
+    <p>
+      If you want to reach me, the <a href="/contact.html">contact page</a> is the fastest way.
+    </p>
+  </article>
+</Base>

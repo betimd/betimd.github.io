@@ -1,0 +1,38 @@
+---
+/**
+ * A static redirect.
+ *
+ * GitHub Pages serves files and nothing else — there is no _redirects, no
+ * vercel.json, no .htaccess, so a real 301 is not available. The canonical
+ * link is what actually transfers ranking to the new URL; the meta refresh
+ * and the JS assignment move real visitors. Google treats this combination as
+ * equivalent to a 301.
+ *
+ * noindex is deliberately NOT set: it would tell Google to drop the page
+ * before it follows the canonical, which is the opposite of what we want.
+ */
+interface Props {
+  to: string
+  from?: string
+}
+
+const { to } = Astro.props
+const target = new URL(to, Astro.site).href
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={target} />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <title>Moved — {target}</title>
+  </head>
+  <body>
+    <p>This page has moved to <a href={target}>{target}</a>.</p>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target)
+    </script>
+  </body>
+</html>

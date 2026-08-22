@@ -1,0 +1,30 @@
+---
+import Base from './Base.astro'
+import { formatDateLong } from '../consts'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  post: CollectionEntry<'posts'>
+}
+
+const { post } = Astro.props
+const { title, description, pubDate, lang, image } = post.data
+---
+
+<Base
+  title={title}
+  description={description}
+  canonicalPath={`/${post.id}.html`}
+  type="article"
+  publishedTime={pubDate}
+  image={image}
+  lang={lang}
+>
+  <article class="prose">
+    <h1>{title}</h1>
+    <p class="post-meta">
+      <time datetime={pubDate.toISOString()}>{formatDateLong(pubDate)}</time>
+    </p>
+    <slot />
+  </article>
+</Base>

@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro'
+import { SITE, formatDateShort } from '../consts'
+import { getCollection } from 'astro:content'
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime(),
+)
+---
+
+<Base title="Posts" description={SITE.description} canonicalPath="/">
+  <ul class="post-list">
+    {
+      posts.map((post) => (
+        <li>
+          <time datetime={post.data.pubDate.toISOString()}>{formatDateShort(post.data.pubDate)}</time>
+          <a href={`/${post.id}.html`}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
